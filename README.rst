@@ -22,18 +22,15 @@ Role Variables
    * - atos_client_iso_location
      - None
      - Full URL where a copy of ATOS Client ISO can be downloaded.
-   * - atos_hsm_ip_address
-     - None
-     - IPv4 address for the ATOS HSM.
    * - atos_client_cert_location
      - None
      - Full URL where the client certificate can be downloaded.
    * - atos_client_key_location
      - None
      - Full URL where the client key can be downloaded.
-   * - atos_server_cert_location
+   * - atos_hsms
      - None
-     - Full URL where the server certificate can be downloaded.
+     - List of one or more HSM devices.
 
 Requirements
 ------------
